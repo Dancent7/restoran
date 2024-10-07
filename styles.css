@@ -1,0 +1,233 @@
+body {
+    margin: 0;
+     font-family: "Open Sans"
+}
+.container {
+    margin: auto;
+    max-width: 1440px;
+}
+.header {
+    background-image: url(bg.jpg);
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.header-line {
+    padding-top: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.header-logo {
+    margin-right: 500px;
+}
+.nav a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 14px;
+    margin-right: 25px;
+    transition: color 0.3s linear;
+} 
+.nav a:hover {
+    color: red;
+
+}
+.cart {
+    position: relative;
+    border-right: 1px solid #FFFFFF;
+    padding-right: 10px;
+    height: 50px;
+}
+.cart img {
+    position: absolute;
+    top: 18px;
+    right: 7px;
+}
+.number a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: 700;
+    transition: color 0.3s linear;
+    margin-left: 5px;
+}
+.number a:hover {
+    color: red;
+}
+.phone-text {
+    font-size: 14px;
+    font-weight: 400;
+    color: #fff;
+}
+.phone-holder {
+    display: flex;
+    align-items: center;
+}
+.btn a {
+    background-color: #FF7400;
+    color: #fff;
+    text-decoration: none;
+    padding: 14px 17px;
+    font-weight: 700;
+    transition: background-color 0.2s linear;
+}
+.btn a:hover {
+    background-color: #894b17;
+}
+.header-down {
+    position: relative;
+    margin-left: 70px;
+}
+.header-title {
+    position: absolute;
+    left: 0;
+    color: #D67E35;
+    font-family: "Tinos", serif;
+    font-size: 50px;
+    font-weight: 400;
+    text-align: center;
+    margin-top: 222px;
+    margin-bottom: 12px;
+}
+.header-subtitle {
+    font-size: 80px;
+}
+.header-suptitle {
+    color: #fff;
+    font-size: 18px;
+    font-family: "Open Sans";
+}
+.header-suptitle:after {
+    position: absolute;
+    content: '';
+    height: 2px;
+    width: 61px;
+    background-color: #fff;
+    top: 160px;
+    left: 85px;
+}
+.header-suptitle:before {
+    position: absolute;
+    content: '';
+    height: 2px;
+    width: 61px;
+    background-color: #fff;
+    top: 160px;
+    left: 332px;
+}
+.header-btn a {
+    background-color: #FF7400;
+    padding: 14px 28px;
+    color: #fff;
+    font-size: 14px;
+    font-weight: 700;
+    font-family: "Open Sans";
+    text-decoration: none;
+    transition: background-color 0.2s linear;
+}
+.header-btn a:hover {
+    background-color: #894b17;
+
+}
+.card {
+    box-shadow: 10px 10px 40px 20px rgba(0, 0, 0, 0.1);
+    width: 349px;
+    margin-right: 31px;
+    background-color: #fff;
+    margin-top: -80px;
+    padding: 10px 10px;
+}
+.cards-holder {
+    display: flex;
+    justify-content: center;
+}
+.card-img {
+    display: flex;
+    justify-content: center;
+    padding-top: 48px;
+}
+.card-title {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+    font-family: "Tinos", serif;
+    font-size: 26px;
+    font-weight: 400;
+}
+.card-title span {
+    color: #D67E35;
+}
+.card-desc {
+    text-align: center;
+    justify-content: center;
+    font-family: "Tinos", serif;
+    font-size: 26px;
+    font-weight: 400;
+    color: #656363;
+}
+.history-holder {
+    display: flex;
+    padding-left: 165px;
+}
+.history {
+    margin-top: 166px;
+}
+.history-title {
+    font-family: "Tinos", serif;
+    font-size: 54px;
+    font-weight: 400;
+    width: 444px;
+    text-align: center;
+}
+.history-title span {
+    color: #D67E35;
+}
+.history-desc {
+    color: #656363;
+    font-size: 16px;
+    width: 444px;
+    text-align: center;
+    margin-top: 21px;
+}
+.history-num {
+    display: flex;
+    width: 444px;
+    justify-content: center;
+    margin-top: 40px;
+    margin-left: 30px;
+}
+.num-item {
+    margin-right: 60px;
+    text-align: center;
+    font-size: 40px;
+    color: #BC9060;
+    }
+.num-item span {
+    display: block;
+    color: #000;
+    font-size: 20px;
+}
+.history-img {
+    position: relative;
+}
+.img1 {
+    position: absolute;
+    z-index: 999;
+    top: 0;
+    left: 149px;
+    box-shadow: 20px 0px 30px 3px #00000080;
+}
+.img2 {
+    position: absolute;
+    z-index: 998;
+    top: -45px;
+    left: 336px;
+}
+.img3 {
+    position: absolute;
+    z-index: 999;
+    top: 151px;
+    left: 454px;
+    box-shadow: 0px 4px 4px 0px #00000040;
+
+}
