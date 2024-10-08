@@ -468,7 +468,7 @@ figure {
     background-color: red;
     width: 30px;
     height: 100px;
-    top: 0;
+    top: 255px;
     left: 0;
 }
 .redright {
@@ -476,7 +476,7 @@ figure {
     background-color: red;
     width: 30px;
     height: 100px;
-    top: 0;
+    top: 255px;
     right: 0;
 }
 .cook h1 {
