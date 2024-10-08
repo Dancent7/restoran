@@ -490,16 +490,17 @@ figure {
 
 @media (max-width: 1500px) {
     .gallery{
-        margin-left: auto;
-        margin-right: auto;
+        /* margin-left: auto;
+        margin-right: auto; */
     }
     .gal-grid {
         display:block;
+        margin: auto;
     }
     .gallery__img {
         display: block;
-        margin-left: auto;
-        margin-right: auto;
+        /* margin-left: auto;
+        margin-right: auto; */
         margin-bottom: 20px;
     }
 }
@@ -586,5 +587,11 @@ figure {
     }
     .header-down {
         margin: 0;
+    }
+    .menu-item {
+        width: auto;
+    }
+    .burgers-item {
+        display: block;
     }
 } 
