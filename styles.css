@@ -562,6 +562,9 @@ figure {
     .header-line {
         justify-content: space-between;
     }
+    .header-logo {
+        margin-right: 0;
+    }
 }
 
 @media (max-width: 1000px) {
